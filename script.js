@@ -39,16 +39,16 @@ const enableButtons = () => {
 const winFunction = (letter) => {
   disableButtons();
   if (letter == "X") {
-    msgRef.innerHTML = "&#x1F389; <br> 'X' Wins";
+    msgRef.innerHTML = "&#x1F389; <br> 'X' is a Winner";
   } else {
-    msgRef.innerHTML = "&#x1F389; <br> 'O' Wins";
+    msgRef.innerHTML = "&#x1F389; <br> 'O' is a Winner ";
   }
 };
 
 //Function for draw
 const drawFunction = () => {
   disableButtons();
-  msgRef.innerHTML = "&#x1F60E; <br> It's a Draw";
+  msgRef.innerHTML = "&#x1F60E; <br> It's a Draw , Well PLayed";
 };
 
 //New Game
